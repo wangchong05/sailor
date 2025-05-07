@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import './todoList.css';
 
 const listOrigin = [
   {
@@ -63,7 +64,7 @@ const TodoList = () => {
 
   return (
     <div>
-      <div>updateTime: {updateTime}</div>
+      <div className='update-time-style'>updateTime: {updateTime}</div>
       <br />
       
       <div style={{display: 'flex', justifyContent: 'space-between'}}>
